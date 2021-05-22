@@ -90,7 +90,7 @@ export default function SideBarSearch() {
     }
 
     return (
-        <Box sx={{ display: "flex", borderLeft: '1px solid gainsboro', borderRightWidth: 'thin' }}>
+        <Box sx={{ display: "flex", borderLeft: '0px solid gainsboro', borderRightWidth: 'thin' }}>
             <Search>
                 <SearchIconWrapper>
                     {isFocus ? <ArrowBackIcon className={styles.arrowStyle} /> : <SearchIcon className={styles.searchStyle} />}
